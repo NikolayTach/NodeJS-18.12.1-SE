@@ -1,0 +1,27 @@
+2022-12-06 21:22:49,193 14604 [DEBUG] - _ Chocolatey:ChocolateyNewCommand - Normal Run Mode _
+2022-12-06 21:22:49,199 14604 [INFO ] - Creating a new package specification at C:\Windows\System32\pkgs01
+2022-12-06 21:22:49,203 14604 [DEBUG] - Attempting to create directory "C:\Windows\System32\pkgs01".
+2022-12-06 21:22:49,203 14604 [DEBUG] - Attempting to create directory "C:\Windows\System32\pkgs01\tools".
+2022-12-06 21:22:49,203 14604 [DEBUG] - Set token for 'PackageName' to 'pkgs01'
+2022-12-06 21:22:49,203 14604 [DEBUG] - Property https://beta.openai.com/playground/p/CJOux7JmgyWUsBAae2Vejao6?model will be added to additional properties.
+2022-12-06 21:22:49,203 14604 [DEBUG] - Token Values after merge:
+2022-12-06 21:22:49,203 14604 [DEBUG] -  PackageName=pkgs01
+2022-12-06 21:22:49,203 14604 [DEBUG] -  PackageNameLower=pkgs01
+2022-12-06 21:22:49,203 14604 [DEBUG] -  PackageVersion=__REPLACE__
+2022-12-06 21:22:49,203 14604 [DEBUG] -  MaintainerName=__REPLACE_YOUR_NAME__
+2022-12-06 21:22:49,210 14604 [DEBUG] -  MaintainerRepo=__REPLACE_YOUR_REPO__
+2022-12-06 21:22:49,210 14604 [DEBUG] -  AutomaticPackageNotesInstaller=
+2022-12-06 21:22:49,210 14604 [DEBUG] -  AutomaticPackageNotesNuspec=
+2022-12-06 21:22:49,210 14604 [DEBUG] -  InstallerType=EXE_MSI_OR_MSU
+2022-12-06 21:22:49,210 14604 [DEBUG] -  Url=
+2022-12-06 21:22:49,210 14604 [DEBUG] -  Url64=
+2022-12-06 21:22:49,210 14604 [DEBUG] -  SilentArgs=/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`"
+2022-12-06 21:22:49,210 14604 [DEBUG] -  Checksum=
+2022-12-06 21:22:49,210 14604 [DEBUG] -  ChecksumType=sha256
+2022-12-06 21:22:49,210 14604 [DEBUG] -  Checksum64=
+2022-12-06 21:22:49,210 14604 [DEBUG] -  ChecksumType64=sha256
+2022-12-06 21:22:49,210 14604 [DEBUG] -  AdditionalProperties=System.Collections.Generic.Dictionary`2[System.String,System.String]
+2022-12-06 21:22:49,210 14604 [DEBUG] -  https://beta.openai.com/playground/p/CJOux7JmgyWUsBAae2Vejao6?model=text-davinci-003
+2022-12-06 21:22:49,210 14604 [INFO ] - Generating template to a file
+ at 'C:\Windows\System32\pkgs01\pkgs01.nuspec'
+2022-12-06 21:22:49,227 14604 [DEBUG] - <?xml version="1.0" encoding="utf-8"?>
